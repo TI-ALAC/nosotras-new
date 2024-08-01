@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'MYRIADPRO';
+    src: url(fonts/MYRIADPRO-BOLD.OTF);
+    font-weight: regular;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#millones {
+    font-size: 122pt;
+    font-family: 'MYRIADPRO', sans-serif;
+    color: #FFF;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+}
+
+#millones2 {
+    position: absolute;
+    right: 15%; /* Ajusta esta cantidad para mover el reloj más cerca o más lejos del borde derecho */
+    top: 10%; /* Ajusta esta cantidad para mover el reloj hacia arriba o hacia abajo */
+    color: #FFF;
+    font-family: 'MYRIADPRO', sans-serif;
+    font-size: 22pt; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+#time {
+    font-size: 4em;
+    display: flex;
+    align-items: flex-start;
+}
+
+#hours {
+    display: inline-block;
+}
+
+#ampm {
+    display: inline-block;
+    font-size: 0.5em;
+    margin-top: -0.5em;
+    margin-left: 0.1em;
+}
+
+/* 768x384 */
+@media only screen and (max-height: 960px) {
+    #millones {
+        font-size: 65pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 80%;
+        top: 65%;
+        font-style: normal;
+    }
+
+    #millones2 {
+        font-size: 100pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 53%;
+        top: 28%;
+        font-style: normal;
+    }
+
+    #time {
+        font-size: 2em;
+    }
+
+    #ampm {
+        font-size: 130px;
+        margin-top: 114px;
+        margin-left: 25px;
+    
+    }
+
+}
+
+/* 768x384 */
+@media only screen and (max-height: 768px) {
+    #millones {
+        font-size: 65pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 80%;
+        top: 63%;
+        font-style: normal;
+    }
+
+    #millones2 {
+        font-size: 85pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 53%;
+        top: 28%;
+        font-style: normal;
+    }
+
+    #time {
+        font-size: 2em;
+    }
+
+    #ampm {
+        font-size: 120px;
+        margin-top: 95px;
+        margin-left: 25px;
+    
+    }
+
+}
