@@ -61,18 +61,18 @@ img {
 }
 
 /* 768x384 */
-@media only screen and (max-height: 960px) {
+@media only screen and (max-width: 768px) {
     #millones {
-        font-size: 65pt !important;
+        font-size: 40pt !important;
         font-family: 'MYRIADPRO', sans-serif;
         color: #FFF !important;
         left: 80%;
-        top: 65%;
+        top: 60%;
         font-style: normal;
     }
 
     #millones2 {
-        font-size: 100pt !important;
+        font-size: 40pt !important;
         font-family: 'MYRIADPRO', sans-serif;
         color: #FFF !important;
         left: 53%;
@@ -85,42 +85,9 @@ img {
     }
 
     #ampm {
-        font-size: 130px;
-        margin-top: 114px;
-        margin-left: 25px;
-    
-    }
-
-}
-
-/* 768x384 */
-@media only screen and (max-height: 768px) {
-    #millones {
-        font-size: 65pt !important;
-        font-family: 'MYRIADPRO', sans-serif;
-        color: #FFF !important;
-        left: 80%;
-        top: 63%;
-        font-style: normal;
-    }
-
-    #millones2 {
-        font-size: 85pt !important;
-        font-family: 'MYRIADPRO', sans-serif;
-        color: #FFF !important;
-        left: 53%;
-        top: 28%;
-        font-style: normal;
-    }
-
-    #time {
-        font-size: 2em;
-    }
-
-    #ampm {
-        font-size: 120px;
-        margin-top: 95px;
-        margin-left: 25px;
+        font-size: 75px;
+        margin-top: 28px;
+        margin-left: 20px;
     
     }
 
