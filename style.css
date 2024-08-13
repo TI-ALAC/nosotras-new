@@ -61,23 +61,23 @@ img {
 }
 
 /* 768x384 */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
     #millones {
-        font-size: 40pt !important;
+        font-size: 56pt;
         font-family: 'MYRIADPRO', sans-serif;
-        color: #FFF !important;
-        left: 80%;
-        top: 60%;
-        font-style: normal;
+        color: #FFF;
+        left: 81%;
+        top: 57%;
+        position: absolute;
     }
 
     #millones2 {
-        font-size: 40pt !important;
+        position: absolute;
+        right: 15%;
+        top: 32%;
+        color: #FFF;
         font-family: 'MYRIADPRO', sans-serif;
-        color: #FFF !important;
-        left: 53%;
-        top: 28%;
-        font-style: normal;
+        font-size: 37pt;
     }
 
     #time {
@@ -85,9 +85,11 @@ img {
     }
 
     #ampm {
-        font-size: 75px;
-        margin-top: 28px;
-        margin-left: 20px;
+        display: inline-block;
+        font-size: 0.5em;
+        margin-top: 45px;
+        margin-left: 0.1em;
+    
     
     }
 
