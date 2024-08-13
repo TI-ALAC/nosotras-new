@@ -94,3 +94,38 @@ img {
     }
 
 }
+
+/* 768x384 */
+@media only screen and (max-width: 720px) {
+    #millones {
+        font-size: 42pt;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF;
+        left: 81%;
+        top: 60%;
+        position: absolute;
+    }
+
+    #millones2 {
+        position: absolute;
+        right: 12%;
+        top: 34%;
+        color: #FFF;
+        font-family: 'MYRIADPRO', sans-serif;
+        font-size: 34pt;
+    }
+
+    #time {
+        font-size: 2em;
+    }
+
+    #ampm {
+        display: inline-block;
+        font-size: 0.5em;
+        margin-top: 45px;
+        margin-left: 0.1em;
+    
+    
+    }
+
+}
