@@ -25,26 +25,7 @@ img {
     overflow: hidden;
 }
 
-#millones {
-    font-size: 122pt;
-    font-family: 'MYRIADPRO', sans-serif;
-    color: #FFF;
-    left: 15%;
-    top: 30%;
-    position: absolute;
-}
-
-#millones2 {
-    position: absolute;
-    right: 15%; /* Ajusta esta cantidad para mover el reloj más cerca o más lejos del borde derecho */
-    top: 10%; /* Ajusta esta cantidad para mover el reloj hacia arriba o hacia abajo */
-    color: #FFF;
-    font-family: 'MYRIADPRO', sans-serif;
-    font-size: 22pt; /* Ajusta el tamaño de la fuente según sea necesario */
-}
-
 #time {
-    font-size: 4em;
     display: flex;
     align-items: flex-start;
 }
@@ -53,15 +34,7 @@ img {
     display: inline-block;
 }
 
-#ampm {
-    display: inline-block;
-    font-size: 0.5em;
-    margin-top: -0.5em;
-    margin-left: 0.1em;
-}
 
-/* 768x384 */
-@media only screen and (max-width: 960px) {
     #millones {
         font-size: 56pt;
         font-family: 'MYRIADPRO', sans-serif;
@@ -92,40 +65,3 @@ img {
     
     
     }
-
-}
-
-/* 768x384 */
-@media only screen and (max-width: 720px) {
-    #millones {
-        font-size: 42pt;
-        font-family: 'MYRIADPRO', sans-serif;
-        color: #FFF;
-        left: 81%;
-        top: 60%;
-        position: absolute;
-    }
-
-    #millones2 {
-        position: absolute;
-        right: 12%;
-        top: 34%;
-        color: #FFF;
-        font-family: 'MYRIADPRO', sans-serif;
-        font-size: 34pt;
-    }
-
-    #time {
-        font-size: 2em;
-    }
-
-    #ampm {
-        display: inline-block;
-        font-size: 0.5em;
-        margin-top: 45px;
-        margin-left: 0.1em;
-    
-    
-    }
-
-}
